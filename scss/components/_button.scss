@@ -1,0 +1,19 @@
+@use '../base/variables' as *;
+
+.button {
+    background-color: var(--bg-button);
+    border: none;
+    padding: 1em 0;
+    width: 70%;
+    border-radius: 2em;
+    margin: 0 auto;
+    color: var(--button-text);
+    font-family: var(--ff-secondary);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.2s ease-in, color 0.2s ease-in;
+
+    &:hover {
+        background-color: var(--button-hover);
+        color: var(--primary-text);
+    }
+}
