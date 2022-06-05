@@ -1,0 +1,14 @@
+@use './variables' as *;
+
+h1 {
+    font-family: var(--ff-secondary);
+    font-weight: var(--fw-semi-bold);
+    font-size: rem(24px);
+    line-height: 1.6;
+    margin-bottom: em(20px, 24px);
+}
+
+p {
+    font-size: rem(17px);
+    margin-bottom: 2em;
+}

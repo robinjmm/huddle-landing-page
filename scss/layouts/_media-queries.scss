@@ -1,0 +1,63 @@
+@use '../base/variables' as *;
+
+@media (min-width: 1280px) {
+    body {
+        background-image: url("../../images/bg-desktop.svg");
+        background-size: cover;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .container--flex {
+        width: 90%;
+        margin: rem(120px) auto 0;
+        display: flex;
+        gap: rem(30px);
+        justify-content: center;
+    }
+
+    .hero {
+        width: 100%;
+    }
+
+    header {
+        flex: 1 1 60%;
+    }
+
+    .content {
+        fleX: 1 1 40%;
+        padding-top: 1rem;
+    }
+
+    main {
+        max-width: 100%;
+        text-align: left;
+        margin: 0;
+    }
+
+    h1 {
+        font-size: rem(34px);
+    }
+
+    footer {
+        position: absolute;
+        bottom: 5%;
+        right: 5%;
+    }
+}
+
+@media (min-width: 2560px) {
+    h1 {
+        font-size: rem(60px);
+    }
+
+    p {
+        font-size: rem(24px);
+    }
+
+    .button {
+        font-size: rem(24px);
+    }
+}

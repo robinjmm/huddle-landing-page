@@ -2,6 +2,8 @@
 
 @use 'base/defaults';
 
+@use 'base/typography';
+
 @use 'components/logo';
 
 @use 'components/button';
@@ -9,3 +11,5 @@
 @use 'components/social-icons';
 
 @use 'layouts/layout';
+
+@use 'layouts/media-queries';

@@ -4,6 +4,7 @@ body {
     background-color: var(--bg-main);
     background-image: url("../../images/bg-mobile.svg");
     background-repeat: no-repeat;
+    background-size: contain;
     width: 100%;
     padding: 5vh 0;
     color: var(--primary-text);
@@ -14,34 +15,21 @@ body {
 }
 
 header,
-main {
+main,
+.container {
     width: 85%;
     margin: 0 auto;
 }
 
 main {
+    max-width: 510px;
     text-align: center;
     margin-top: rem(50px);
 }
 
-h1 {
-    font-family: var(--ff-secondary);
-    font-size: rem(24px);
-    line-height: 1.6;
-    margin-bottom: em(20px, 24px);
-    font-weight: var(--fw-semi-bold);
-}
-
-p {
-    font-size: rem(17px);
-    margin-bottom: 2em;
-}
-
 footer {
     display: flex;
+    justify-content: center;
     gap: rem(10px);
-    position: fixed;
-    bottom: 30px;
-    left: 50%;
-    transform: translateX(-50%);
+    margin-top: rem(120px);
 }

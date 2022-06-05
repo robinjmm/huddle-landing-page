@@ -11,4 +11,10 @@
     height: 40px;
     border-radius: 50%;
     border: 1px solid white;
+    transition: color 0.2s linear, border-color 0.2s linear;
+
+    &:hover {
+        color: var(--button-hover);
+        border-color: var(--button-hover);
+    }
 }
